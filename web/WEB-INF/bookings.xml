@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bookings.xsl"?>
+<a:bookings xmlns:a="http://learn.it.uts.edu.au/wsd"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://learn.it.uts.edu.au/wsd bookings.xsd">
+
+    <a:booking>
+        <a:bookingID>123</a:bookingID>
+        <a:user>
+            <a:userID>123456</a:userID>
+            <a:name>XiRanLi</a:name>
+            <a:email>lixiranph@126.com</a:email>
+            <a:DOB>30/10/1994</a:DOB>
+            <a:password>A123123</a:password>
+            <a:type>Customer</a:type>
+        </a:user>
+
+        <a:flight>
+            <a:flightID>AU177</a:flightID>
+            <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+            <a:type>Economy</a:type>
+            <a:price>99.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Sydney</a:from>
+            <a:to>Melbourne</a:to>
+        </a:flight>
+        <a:seat>1</a:seat>
+        <a:description>Active</a:description>
+    </a:booking>
+    
+    <a:booking>
+        <a:bookingID>234</a:bookingID>
+        <a:user>
+            <a:userID>234567</a:userID>
+            <a:name>Eric Lin</a:name>
+            <a:email>ericlin@126.com</a:email>
+            <a:DOB>30/12/1989</a:DOB>
+            <a:password>A123123</a:password>
+            <a:type>Customer</a:type>
+        </a:user>
+        <a:flight>
+            <a:flightID>AU156</a:flightID>
+            <a:dDateTime>19/06/2017 17:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 19:30:00</a:rDateTime>
+            <a:type>Business</a:type>
+            <a:price>89.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Sydney</a:from>
+            <a:to>Brisbane</a:to>
+        </a:flight>
+        <a:seat>1</a:seat>
+        <a:description>Canceled</a:description>
+    </a:booking>
+    
+    <a:booking>
+        <a:bookingID>567</a:bookingID>
+        <a:user>
+            <a:userID>345678</a:userID>
+            <a:name>ShiweiLin</a:name>
+            <a:email>shiweilin@lsw.com</a:email>
+            <a:DOB>03/01/1997</a:DOB>
+            <a:password>A123123</a:password>
+            <a:type>Customer</a:type>
+        </a:user>
+        <a:flight>
+            <a:flightID>AU173</a:flightID>
+            <a:dDateTime>19/06/2017 15:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 21:30:00</a:rDateTime>
+            <a:type>Economy</a:type>
+            <a:price>69.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Adelaide</a:from>
+            <a:to>Sydney</a:to>
+        </a:flight>
+        <a:seat>1</a:seat>
+        <a:description>Active</a:description>
+    </a:booking>
+    
+    <a:booking>
+        <a:bookingID>2343</a:bookingID>
+        <a:user>
+            <a:userID>123456</a:userID>
+            <a:name>XiRanLi</a:name>
+            <a:email>lixiranph@126.com</a:email>
+            <a:DOB>30/10/1994</a:DOB>
+            <a:password>A123123</a:password>
+            <a:type>Customer</a:type>
+        </a:user>
+
+        <a:flight>
+            <a:flightID>AU177</a:flightID>
+            <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+            <a:type>Economy</a:type>
+            <a:price>99.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Sydney</a:from>
+            <a:to>Melbourne</a:to>
+        </a:flight>
+        <a:seat>1</a:seat>
+        <a:description>Canceled</a:description>
+    </a:booking>
+
+    <a:booking>
+        <a:bookingID>3612</a:bookingID>
+        <a:user>
+            <a:userID>123456</a:userID>
+            <a:name>XiRanLi</a:name>
+            <a:email>lixiranph@126.com</a:email>
+            <a:DOB>30/10/1994</a:DOB>
+            <a:password>A123123</a:password>
+            <a:type>Customer</a:type>
+        </a:user>
+
+        <a:flight>
+            <a:flightID>AU177</a:flightID>
+            <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+            <a:type>Economy</a:type>
+            <a:price>99.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Sydney</a:from>
+            <a:to>Melbourne</a:to>
+        </a:flight>
+        <a:seat>1</a:seat>
+        <a:description>Canceled</a:description>
+    </a:booking>
+    
+    <a:booking>
+        <a:bookingID>554</a:bookingID>
+        <a:user>
+            <a:userID>123456</a:userID>
+            <a:name>XiRanLi</a:name>
+            <a:email>lixiranph@126.com</a:email>
+            <a:DOB>30/10/1994</a:DOB>
+            <a:password>A123123</a:password>
+            <a:type>Customer</a:type>
+        </a:user>
+
+        <a:flight>
+            <a:flightID>AU177</a:flightID>
+            <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+            <a:type>Economy</a:type>
+            <a:price>99.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Sydney</a:from>
+            <a:to>Melbourne</a:to>
+        </a:flight>
+        <a:seat>1</a:seat>
+        <a:description>Canceled</a:description>
+    </a:booking>
+    
+    <a:booking>
+        <a:bookingID>112</a:bookingID>
+        <a:user>
+            <a:userID>123456</a:userID>
+            <a:name>XiRanLi</a:name>
+            <a:email>lixiranph@126.com</a:email>
+            <a:DOB>30/10/1994</a:DOB>
+            <a:password>A123123</a:password>
+            <a:type>Customer</a:type>
+        </a:user>
+
+        <a:flight>
+            <a:flightID>AU177</a:flightID>
+            <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+            <a:type>Economy</a:type>
+            <a:price>99.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Sydney</a:from>
+            <a:to>Melbourne</a:to>
+        </a:flight>
+        <a:seat>1</a:seat>
+        <a:description>Canceled</a:description>
+    </a:booking>
+
+</a:bookings>

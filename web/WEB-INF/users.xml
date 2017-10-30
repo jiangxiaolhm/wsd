@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="users.xsl"?>
+<a:users xmlns:a="http://learn.it.uts.edu.au/wsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://learn.it.uts.edu.au/wsd users.xsd">
+    <a:user>
+        <a:userID>123456</a:userID>
+        <a:name>XiRanLi</a:name>
+        <a:email>lixiranph@126.com</a:email>
+        <a:DOB>30/10/1994</a:DOB>
+        <a:password>A123123</a:password>
+        <a:type>Customer</a:type>
+    </a:user>
+    <a:user>
+        <a:userID>345678</a:userID>
+        <a:name>ShiweiLin</a:name>
+        <a:email>shiweilin@lsw.com</a:email>
+        <a:DOB>03/01/1997</a:DOB>
+        <a:password>A123123</a:password>
+        <a:type>Customer</a:type>
+    </a:user>
+    <a:user>
+        <a:userID>456789</a:userID>
+        <a:name>SanZhang</a:name>
+        <a:email>sanzhang@777.com</a:email>
+        <a:DOB>15/10/1990</a:DOB>
+        <a:password>A123123</a:password>
+        <a:type>Customer</a:type>
+    </a:user>
+    <a:user>
+        <a:userID>789012</a:userID>
+        <a:name>NiuBiDa</a:name>
+        <a:email>niubi@777.com</a:email>
+        <a:DOB>15/10/1989</a:DOB>
+        <a:password>A123123</a:password>
+        <a:type>Customer</a:type>
+    </a:user>
+    <a:user>
+        <a:userID>567890</a:userID>
+        <a:name>SiLi</a:name>
+        <a:email>lisi@126.com</a:email>
+        <a:DOB>30/1/1991</a:DOB>
+        <a:password>A123123</a:password>
+        <a:type>Admin</a:type>
+    </a:user>
+    <a:user>
+        <a:userID>678901</a:userID>
+        <a:name>SanFengZhang</a:name>
+        <a:email>zhangsanfeng@126.com</a:email>
+        <a:DOB>30/12/1989</a:DOB>
+        <a:password>A123123</a:password>
+        <a:type>Admin</a:type>
+    </a:user>
+    <a:user>
+        <a:userID>234567</a:userID>
+        <a:name>Eric Lin</a:name>
+        <a:email>ericlin@126.com</a:email>
+        <a:DOB>30/12/1989</a:DOB>
+        <a:password>A123123</a:password>
+        <a:type>Customer</a:type>
+    </a:user>
+</a:users>

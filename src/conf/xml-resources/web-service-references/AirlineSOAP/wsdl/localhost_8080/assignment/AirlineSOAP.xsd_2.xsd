@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://learn.it.uts.edu.au/wsd" xmlns:a="http://learn.it.uts.edu.au/wsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" version="1.0" targetNamespace="http://learn.it.uts.edu.au/wsd">
+
+<xs:element name="flight" type="tns:flight"/>
+
+<xs:element name="listing" type="tns:listing"/>
+
+<xs:element name="listings" type="tns:listings"/>
+
+<xs:element name="user" type="tns:user"/>
+
+<xs:complexType name="user">
+<xs:sequence>
+<xs:element name="userID" type="xs:int"/>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+<xs:element name="email" type="xs:string" minOccurs="0"/>
+<xs:element name="DOB" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+<xs:element name="type" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="flight">
+<xs:sequence>
+<xs:element name="flightID" type="xs:string" minOccurs="0"/>
+<xs:element name="dDateTime" type="xs:string" minOccurs="0"/>
+<xs:element name="rDateTime" type="xs:string" minOccurs="0"/>
+<xs:element name="type" type="xs:string" minOccurs="0"/>
+<xs:element name="price" type="xs:double"/>
+<xs:element name="numOfSeats" type="xs:int"/>
+<xs:element name="from" type="xs:string" minOccurs="0"/>
+<xs:element name="to" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="listings">
+<xs:sequence>
+<xs:element ref="tns:listing" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="listing">
+<xs:sequence>
+<xs:element name="listingID" type="xs:int"/>
+<xs:element ref="tns:user" minOccurs="0"/>
+<xs:element ref="tns:flight" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="description" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

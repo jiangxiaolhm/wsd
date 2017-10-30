@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="listings.xsl"?>
+<a:listings xmlns:a="http://learn.it.uts.edu.au/wsd"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://learn.it.uts.edu.au/wsd listings.xsd">
+    
+    <a:listing>
+        <a:listingID>123</a:listingID>
+        <a:user>
+            <a:userID>123456</a:userID>
+            <a:name>XiRanLi</a:name>
+            <a:email>lixiranph@126.com</a:email>
+            <a:DOB>30/10/1994</a:DOB>
+            <a:password>A123123</a:password>
+            <a:type>Customer</a:type>
+        </a:user>
+        <a:flight>
+            <a:flightID>AU177</a:flightID>
+            <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+            <a:type>Economy</a:type>
+            <a:price>99.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Sydney</a:from>
+            <a:to>Melbourne</a:to>
+        </a:flight>
+        <a:flight>
+            <a:flightID>AU172</a:flightID>
+            <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+            <a:type>Economy</a:type>
+            <a:price>99.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Sydney</a:from>
+            <a:to>Melbourne</a:to>
+        </a:flight>
+        <a:description>Active</a:description>
+    </a:listing>
+    <a:listing>
+        <a:listingID>3435</a:listingID>
+        <a:user>
+            <a:userID>123456</a:userID>
+            <a:name>XiRanLi</a:name>
+            <a:email>lixiranph@126.com</a:email>
+            <a:DOB>30/10/1994</a:DOB>
+            <a:password>A123123</a:password>
+            <a:type>Customer</a:type>
+        </a:user>
+        <a:flight>
+            <a:flightID>AU177</a:flightID>
+            <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+            <a:type>Economy</a:type>
+            <a:price>99.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Sydney</a:from>
+            <a:to>Melbourne</a:to>
+        </a:flight>
+        <a:description>Active</a:description>
+    </a:listing>
+    <a:listing>
+        <a:listingID>223</a:listingID>
+        <a:user>
+            <a:userID>123456</a:userID>
+            <a:name>XiRanLi</a:name>
+            <a:email>lixiranph@126.com</a:email>
+            <a:DOB>30/10/1994</a:DOB>
+            <a:password>A123123</a:password>
+            <a:type>Customer</a:type>
+        </a:user>
+        <a:flight>
+            <a:flightID>AU177</a:flightID>
+            <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+            <a:type>Economy</a:type>
+            <a:price>99.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Sydney</a:from>
+            <a:to>Melbourne</a:to>
+        </a:flight>
+        <a:description>Active</a:description>
+    </a:listing>
+    <a:listing>
+        <a:listingID>3745</a:listingID>
+        <a:user>
+            <a:userID>123456</a:userID>
+            <a:name>XiRanLi</a:name>
+            <a:email>lixiranph@126.com</a:email>
+            <a:DOB>30/10/1994</a:DOB>
+            <a:password>A123123</a:password>
+            <a:type>Customer</a:type>
+        </a:user>
+        <a:flight>
+            <a:flightID>AU177</a:flightID>
+            <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+            <a:type>Economy</a:type>
+            <a:price>99.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Sydney</a:from>
+            <a:to>Melbourne</a:to>
+        </a:flight>
+        <a:description>Active</a:description>
+    </a:listing>
+    <a:listing>
+        <a:listingID>775</a:listingID>
+        <a:user>
+            <a:userID>123456</a:userID>
+            <a:name>XiRanLi</a:name>
+            <a:email>lixiranph@126.com</a:email>
+            <a:DOB>30/10/1994</a:DOB>
+            <a:password>A123123</a:password>
+            <a:type>Customer</a:type>
+        </a:user>
+        <a:flight>
+            <a:flightID>AU177</a:flightID>
+            <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+            <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+            <a:type>Economy</a:type>
+            <a:price>99.99</a:price>
+            <a:numOfSeats>100</a:numOfSeats>
+            <a:from>Sydney</a:from>
+            <a:to>Melbourne</a:to>
+        </a:flight>
+        <a:description>Active</a:description>
+    </a:listing>
+</a:listings>
+

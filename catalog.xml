@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/assignment/LoginService?wsdl" uri="src/conf/xml-resources/web-service-references/LoginService_1/wsdl/localhost_8080/assignment/LoginService.wsdl"/>
+    <system systemId="http://localhost:8080/assignment/LoginService?xsd=1" uri="src/conf/xml-resources/web-service-references/LoginService_1/wsdl/localhost_8080/assignment/LoginService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/assignment/Diary?wsdl" uri="src/conf/xml-resources/web-service-references/Diary/wsdl/localhost_8080/assignment/Diary.wsdl"/>
+    <system systemId="http://localhost:8080/assignment/Diary?xsd=1" uri="src/conf/xml-resources/web-service-references/Diary/wsdl/localhost_8080/assignment/Diary.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/assignment/Diary?xsd=2" uri="src/conf/xml-resources/web-service-references/Diary/wsdl/localhost_8080/assignment/Diary.xsd_2.xsd"/>
+    <system systemId="http://localhost:8080/assignment/DiarySOAP?wsdl" uri="src/conf/xml-resources/web-service-references/DiarySOAP/wsdl/localhost_8080/assignment/DiarySOAP.wsdl"/>
+    <system systemId="http://localhost:8080/assignment/DiarySOAP?xsd=1" uri="src/conf/xml-resources/web-service-references/DiarySOAP/wsdl/localhost_8080/assignment/DiarySOAP.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/assignment/DiarySOAP?xsd=2" uri="src/conf/xml-resources/web-service-references/DiarySOAP/wsdl/localhost_8080/assignment/DiarySOAP.xsd_2.xsd"/>
+    <system systemId="http://localhost:8080/assignment/ListingSOAP?wsdl" uri="src/conf/xml-resources/web-service-references/ListingSOAP/wsdl/localhost_8080/assignment/ListingSOAP.wsdl"/>
+    <system systemId="http://localhost:8080/assignment/ListingSOAP?xsd=1" uri="src/conf/xml-resources/web-service-references/ListingSOAP/wsdl/localhost_8080/assignment/ListingSOAP.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/assignment/ListingSOAP?xsd=2" uri="src/conf/xml-resources/web-service-references/ListingSOAP/wsdl/localhost_8080/assignment/ListingSOAP.xsd_2.xsd"/>
+    <system systemId="http://localhost:8080/assignment/AirlineSOAP?wsdl" uri="src/conf/xml-resources/web-service-references/AirlineSOAP/wsdl/localhost_8080/assignment/AirlineSOAP.wsdl"/>
+    <system systemId="http://localhost:8080/assignment/AirlineSOAP?xsd=1" uri="src/conf/xml-resources/web-service-references/AirlineSOAP/wsdl/localhost_8080/assignment/AirlineSOAP.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/assignment/AirlineSOAP?xsd=2" uri="src/conf/xml-resources/web-service-references/AirlineSOAP/wsdl/localhost_8080/assignment/AirlineSOAP.xsd_2.xsd"/>
+</catalog>

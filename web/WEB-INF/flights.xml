@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="flights.xsl"?>
+<a:flights xmlns:a="http://learn.it.uts.edu.au/wsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://learn.it.uts.edu.au/wsd flights.xsd">
+    
+    <a:flight>
+        <a:flightID>AU177</a:flightID>
+        <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+        <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+        <a:type>Economy</a:type>
+        <a:price>99.99</a:price>
+        <a:numOfSeats>0</a:numOfSeats>
+        <a:from>Sydney</a:from>
+        <a:to>Melbourne</a:to>
+    </a:flight>
+    
+    <a:flight>
+        <a:flightID>AU222</a:flightID>
+        <a:dDateTime>19/06/2017 18:00:00</a:dDateTime>
+        <a:rDateTime>20/06/2017 20:30:00</a:rDateTime>
+        <a:type>Economy</a:type>
+        <a:price>99.99</a:price>
+        <a:numOfSeats>100</a:numOfSeats>
+        <a:from>Sydney</a:from>
+        <a:to>Melbourne</a:to>
+    </a:flight>
+
+    <a:flight>
+        <a:flightID>AU173</a:flightID>
+        <a:dDateTime>19/06/2017 15:00:00</a:dDateTime>
+        <a:rDateTime>20/06/2017 21:30:00</a:rDateTime>
+        <a:type>Economy</a:type>
+        <a:price>69.99</a:price>
+        <a:numOfSeats>100</a:numOfSeats>
+        <a:from>Adelaide</a:from>
+        <a:to>Sydney</a:to>
+    </a:flight>
+
+    <a:flight>
+        <a:flightID>AU156</a:flightID>
+        <a:dDateTime>19/06/2017 17:00:00</a:dDateTime>
+        <a:rDateTime>20/06/2017 19:30:00</a:rDateTime>
+        <a:type>Business</a:type>
+        <a:price>89.99</a:price>
+        <a:numOfSeats>100</a:numOfSeats>
+        <a:from>Sydney</a:from>
+        <a:to>Brisbane</a:to>
+    </a:flight>
+</a:flights>

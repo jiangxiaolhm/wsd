@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://soap.wsd.uts/" xmlns:ns1="http://learn.it.uts.edu.au/wsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://soap.wsd.uts/">
+
+<xs:import namespace="http://learn.it.uts.edu.au/wsd" schemaLocation="http://localhost:8080/assignment/AirlineSOAP?xsd=2"/>
+
+<xs:element name="IOException" type="tns:IOException"/>
+
+<xs:element name="JAXBException" type="tns:JAXBException"/>
+
+<xs:element name="closeListing" type="tns:closeListing"/>
+
+<xs:element name="closeListingResponse" type="tns:closeListingResponse"/>
+
+<xs:element name="createListing" type="tns:createListing"/>
+
+<xs:element name="createListingResponse" type="tns:createListingResponse"/>
+
+<xs:element name="fetchListings" type="tns:fetchListings"/>
+
+<xs:element name="fetchListingsResponse" type="tns:fetchListingsResponse"/>
+
+<xs:element name="login" type="tns:login"/>
+
+<xs:element name="loginResponse" type="tns:loginResponse"/>
+
+<xs:element name="logout" type="tns:logout"/>
+
+<xs:element name="logoutResponse" type="tns:logoutResponse"/>
+
+<xs:element name="makeBooking" type="tns:makeBooking"/>
+
+<xs:element name="makeBookingResponse" type="tns:makeBookingResponse"/>
+
+<xs:complexType name="login">
+<xs:sequence>
+<xs:element name="email" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="loginResponse">
+<xs:sequence>
+<xs:element name="return" type="ns1:user" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="JAXBException">
+<xs:sequence>
+<xs:element name="errorCode" type="xs:string" minOccurs="0"/>
+<xs:element name="linkedException" type="tns:throwable" minOccurs="0"/>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="throwable">
+<xs:sequence>
+<xs:element name="stackTrace" type="tns:stackTraceElement" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="stackTraceElement" final="extension restriction">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="IOException">
+<xs:sequence>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createListing">
+<xs:sequence>
+<xs:element name="user" type="ns1:user" minOccurs="0"/>
+<xs:element name="flights" type="ns1:flight" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createListingResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="makeBooking">
+<xs:sequence>
+<xs:element name="arg0" type="ns1:user" minOccurs="0"/>
+<xs:element name="arg1" type="ns1:flight" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="makeBookingResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="logout">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="logoutResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="fetchListings">
+<xs:sequence>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+<xs:element name="status" type="xs:string" minOccurs="0"/>
+<xs:element name="numofflight" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fetchListingsResponse">
+<xs:sequence>
+<xs:element name="return" type="ns1:listings" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="closeListing">
+<xs:sequence>
+<xs:element name="listingID" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="closeListingResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

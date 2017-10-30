@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://learn.it.uts.edu.au/wsd"
+           xmlns="http://learn.it.uts.edu.au/wsd"
+           elementFormDefault="qualified">
+
+    <xs:simpleType name="email">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="DOB">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{1,2}/\d{1,2}/\d{1,4}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="users">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="user" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="userID" type="xs:integer"/>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="email" type="email"/>
+                            <xs:element name="DOB" type="DOB"/>
+                            <xs:element name="password" type="xs:string"/>
+                            <xs:element name="type" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
